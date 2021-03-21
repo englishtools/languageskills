@@ -1,0 +1,150 @@
+
+body{
+    margin:0;
+    padding:0; 
+    background-color: #F2F4F4;
+}
+
+div{
+    text-align:center;
+}
+.header{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    background:#BFC9CA;
+    object-position: center;
+    overflow: hidden;
+    position: top;
+    
+}
+.header h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Italiana', serif;
+    font-size: 1.5cm;
+    text-align:center; 
+    color: #fff;   
+}
+.nav{
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    background: #717D7E;
+    font-family:sans-serif;
+    
+}
+.nav a{
+    font-family: 'Jost',sans-serif;
+    color: #fff;
+    text-align:center;
+    padding: 40px 30px;
+    text-decoration: none;
+    
+}
+.nav a:hover{background-color: #F2F4F4;
+    
+    }
+
+.in-flex{
+    flex: 1;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+}
+
+.image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.image4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.image5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.image6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.in-flex:first-child {
+    flex: 0.5;
+    padding: 25px;
+    margin: 20px;
+    margin-left: 100px;
+    text-align: justify;
+    font-family:'Jost', sans-serif;
+    border-top-color: 1px solid #717D7E;
+}
+.in-flex div  {
+    padding: 25px;
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Jost',sans-serif;
+    margin-right: 100px;
+    border-left: 1px solid #717D7E;
+}
+
+.home{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #E5E8E8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.second{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #D6DBDF;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.third{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #E5E8E8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.forth{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #D6DBDF;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fifth{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #E5E8E8;
+    margin-left: 100px;
+    margin-right: 100px;
+}
